@@ -1,0 +1,151 @@
+
+/* browser css */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body css */
+
+
+body{
+    background-color: #02AABD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* heading css */
+
+
+.heading{
+    margin-bottom: 15px;
+    font-size:40px;
+    margin-left: 30px;
+}
+
+
+/* div calculator css */
+
+
+
+.calculator{
+    padding: 35px 45px ;
+    background-color: black;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+}
+
+/* input css */
+
+
+#display{
+    width: 285px;
+    padding: 10px;
+    text-align: right;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 25px;
+    background-color: rgb(228, 238, 247);
+   
+}
+
+
+  
+/* buttons css */
+
+
+button{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(228, 238, 247);
+    
+}
+
+button:hover {
+    background-color:#02AABD;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.buttons{
+    background-color: rgba(245, 146, 62);
+}
+
+.buttons:hover{
+    background-color: chocolate;
+    transition: background-color 0.3s ease;
+}
+
+#equal{
+    width: 210px;
+    height: 60px;
+    font-size: 28px;
+    background-color: forestgreen;
+    
+    
+}
+
+#equal:hover{
+    background-color: rgb(14, 162, 14);
+    transition: background-color 0.3 ease;
+}
+
+
+
+
+
+
+@media only screen and  (max-width: 600px){
+    body{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .calculator{
+        max-width: 300px;
+        padding: 20px;
+        
+    }
+
+    #display{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    button{
+        width: 40px;
+        height: 40px;
+        margin: 3px;
+        font-size: 18px;
+    }
+
+    #equal{
+        width: 135px;
+        height: 43px;
+        font-size: 22px;
+
+    }
+}
+
+
+
